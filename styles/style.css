@@ -22,24 +22,27 @@
     --fuente-in:"Inter",sans-serif;
 
 }
+
 body{
     font-size: 14px;
     font-family: var(--fuente-in);
     background-color: #F3F5FC;
-    
+    max-width:  941;
+    max-height: 642;
 
 }
 
 .container{
     
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    
     position: absolute;
     position: relative;
 }
 
 .workArea{
-    
+    padding-left: 10%;
     height: auto;
     padding-top: 15px;
 
@@ -55,14 +58,14 @@ header{
 .columna-1{
     
     float: left;
-    width: 60%;
+    width: 40%;
     
 }
 .dentroColumna{
     margin-left: 40px;
 }
 .texto_a_transformar{
-    width: 90%;
+    width: 80%;
     padding: 10%;
     margin: auto;
     background-color: #F3F5FC;
@@ -247,3 +250,7 @@ footer{
     text-transform: lowercase;
     font-size: 24px;
 }
+
+@media (max-width: 1200px){}
+@media (max-width: 767px){}
+@media (max-width: 360px) {}
