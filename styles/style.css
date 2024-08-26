@@ -111,6 +111,8 @@ header{
     text-align: center;
     font-size: 16px;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: var(--gc400);
 
 }
