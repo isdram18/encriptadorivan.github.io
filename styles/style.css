@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --db100:#609ED4;
+    --db200:#356EA9;
+    --db300:#0A3871;
+    --db400:#072B61;
+    --db500:#052051;
+
+    --lb100:#F3F5FC;
+    --lb200:#EFF1FA;
+    --lb300:#E9ECF8;
+    --lb400:#AAB2D5;
+    --lb500:#757FB2;
+
+    --gc100:#CED4DA;
+    --gc200:#ADB5BD;
+    --gc300:#868E96;
+    --gc400:#495057;
+    --gc500:#343A40;
+    
+    --fuente-in:"Inter",sans-serif;
+
+}
+body{
+    font-size: 14px;
+    font-family: var(--fuente-in);
+    background-color: #F3F5FC;
+    
+
+}
+
+.container{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: relative;
+}
+
+.workArea{
+    
+    height: auto;
+    padding-top: 15px;
+
+}
+
+header{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+    height: 50px ;
+}
+
+.columna-1{
+    
+    float: left;
+    width: 60%;
+    
+}
+.dentroColumna{
+    margin-left: 40px;
+}
+.texto_a_transformar{
+    width: 90%;
+    padding: 10%;
+    margin: auto;
+    background-color: #F3F5FC;
+    border: none;
+    color: var(--db300);
+    font-size: 24px;
+    
+}
+::placeholder{
+    color: var(--db300);
+}
+
+.columna-2{
+    
+    float: right;
+    width: 30%;
+    
+    
+}
+.columnBorder{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border: solid 1px #dddcdc;
+    border-radius: 32px;
+    height: 500px;
+    box-shadow: 1px 4px 5px 0px #d1d1d1;
+
+
+}
+.columnBorder img{
+    width: 100%;
+    margin-top: 35%;
+}
+.textoNegritas{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 24px;
+    color: var(--gc500);
+    
+}
+.textoChico{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    color: var(--gc400);
+
+}
+.clear{
+    clear: both;
+}
+
+footer{
+    
+    height: 25px;
+    bottom: 0px;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--db300);
+
+
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btne{
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    font-family: var(--fuente-in);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--db300);
+    color:white;
+    border:1px solid var(--db300);
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.btne:hover{
+    
+    text-align: center;
+    padding:24px;
+    border-radius: 24px;
+    font-family: var(--fuente-in);
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--db400);
+    color: #ffffff;
+    justify-content: center;
+    
+}
+
+.btnd{
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    font-family: var(--fuente-in);
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #d8dfe8;
+    border: 1px solid var(--db300);
+    justify-content: center;
+    cursor:pointer;
+    color: var(--db300);
+    margin-left: 30px;
+
+}
+
+.btnd:hover{
+   
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    font-family: var(--fuente-in);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--lb200);
+    border: 2px solid var(--db300);
+    display: flex;
+    justify-content: center;
+    
+    color: var(--db300);;
+}
+.btnc{
+   
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    font-family: var(--fuente-in);
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #d8dfe8;
+    border: 1px solid var(--db300);
+    justify-content: center;
+    cursor:pointer;
+    color: var(--db300);
+    align-self: flex-start;
+    
+    
+}
+.btnc:hover{
+   
+    text-align: center;
+    padding: 24px;
+    border-radius: 24px;
+    font-family: var(--fuente-in);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: var(--lb200);
+    border: 2px solid var(--db300);
+    display: flex;
+    justify-content: center;
+    
+    color: var(--db300);;
+}
+
+.mensajeRespuesta{
+    background: white;
+    border-radius: 10%;
+    color: var(---gc400);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding-left: 10%;
+    position: relative;
+    padding-right: 10%;
+    text-transform: lowercase;
+    font-size: 24px;
+}

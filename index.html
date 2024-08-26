@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+    <div class="container">
+    <!--Contenedor general -->
+        <header>
+            <div class="logo">
+                <img class="logo" src="/assets/alura-logo.png" alt="logo Alura">
+            </div> 
+        </header>
+        <div class="workArea">
+            <!--Contenedor general -->
+            
+            <div class="columna-1">   
+                <div class="dentroColumna">
+                    <textarea class="texto_a_transformar" id ="miTextarea" cols='40' rows="15" placeholder="Ingrese texto aqui"></textarea>
+            
+                    <div>
+                        <h6 class="info">
+                        <img src="/assets/exclamation-circle.png">
+                        Solo letras minúsculas y sin acentos</h6>
+                    </div>
+                    <div class="botones">
+                        <button class="btne" onclick="encriptaElTexto()">Encriptar</button>
+                        <button class="btnd" onclick="desencriptarElTexto()">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columna-2">
+                
+                <div class="columnBorder" >
+                    <div class="mensajeMono" id="imagenMono">
+                        <img src="./assets/mono-diamante.png"/>
+                        
+                        <div class="textoNegritas">
+                            
+                            Ningún mensaje fue encontrado
+
+                        </div>
+                        <div class="textoChico">
+
+                            Ingresa el texto que desees encriptar o desencriptar.
+
+                        </div>
+                        
+                    </div>
+                    <div class="mensajeRespuesta" id="mensaje">   
+                        <div class="botones">
+                            
+                            <button class="btnc" id="botonCopiar" style="display: none;" onclick="copiarTexto()">Copiar</button>
+                        </div>    
+
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+
+            <div class="clear">
+
+            </div>
+
+
+            <!--Contenedor general -->
+        </div>
+
+        <footer>
+            <p>© 2024 | Developer Isdram</p>
+        </footer>
+
+    <!--Contenedor general -->
+    </div>
+    <script src="encripta.js"></script>
+
+</body>
+</html>
