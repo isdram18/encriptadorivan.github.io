@@ -37,7 +37,7 @@ body{
     width: 80%;
     height: 80%;
     
-    position: absolute;
+    
     position: relative;
 }
 
@@ -45,6 +45,7 @@ body{
     padding-left: 10%;
     height: auto;
     padding-top: 15px;
+    
 
 }
 
@@ -66,6 +67,7 @@ header{
 }
 .texto_a_transformar{
     width: 80%;
+    
     padding: 10%;
     margin: auto;
     background-color: #F3F5FC;
@@ -253,6 +255,48 @@ footer{
     font-size: 24px;
 }
 
-@media (max-width: 1200px){}
-@media (max-width: 767px){}
+@media (max-width: 413px){
+    
+    
+    .workArea {
+        
+    
+        padding-left:0%;
+        width: 100%;
+        display:grid;
+        
+    }
+    
+    .columna-1{
+        width: 100%;
+        
+    }
+    
+    .columna-2 {
+        padding: 1rem;
+    
+        flex-direction: column;
+        width: 100%;
+        display:flex;
+        margin-left: 0px;
+        height: 20%;
+
+    }
+   
+
+    .columnBorder img{
+        display:none;
+    }
+    .botones {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .btnd{
+        margin-left: 0px;
+        margin-top: 15px;
+
+
+    }
+    
+}
 @media (max-width: 360px) {}
