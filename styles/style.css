@@ -260,12 +260,14 @@ footer{
 
 @media (max-width: 413px){
     
-    
+    .header{
+        margin-left: 0px;
+    }
     .workArea {
         
     
         padding-left:0%;
-        width: 100%;
+        width: 80%;
         display:grid;
         
     }
