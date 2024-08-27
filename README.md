@@ -17,7 +17,7 @@ La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
 ```
 
-Requisitos:
+###Requisitos:
 
 Debe funcionar solo con letras minúsculas
 No deben ser utilizados letras con acentos ni caracteres especiales
@@ -40,4 +40,4 @@ En la columna Pausado estarán los elementos que comenzaste a desarrollar, pero 
 Por fin, en la columna Concluido estarán los elementos ya concluidos.
 El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
 
-Buen proyecto!
+##Buen proyecto!
